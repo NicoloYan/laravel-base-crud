@@ -9,7 +9,12 @@
 <body>
 
     <header>
-        HEADER
+        <div>
+            <a href="/">Home</a>
+        </div>
+        <div>
+            <a href="{{ route('comics.index') }}">Products</a>
+        </div>
     </header>
 
     <main>
