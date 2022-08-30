@@ -30,7 +30,7 @@ class ComicController extends Controller
      */
     public function create()
     {
-        //
+        return view('comics.create');
     }
 
     /**
@@ -57,7 +57,7 @@ class ComicController extends Controller
         $data = [
             'comic' => $comic
         ];
-        
+
         return view('comics.show', $data);
     }
 

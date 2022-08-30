@@ -15,6 +15,9 @@
         <div>
             <a href="{{ route('comics.index') }}">Products</a>
         </div>
+        <div>
+            <a href="{{ route('comics.create') }}">Create a new product</a>
+        </div>
     </header>
 
     <main>
